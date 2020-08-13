@@ -33,6 +33,7 @@ public class JDBCTest01 {
 			String url = "jdbc:mysql://localhost:3306/northdev?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC";
 			String user = "root";
 			String password = "123456";
+			
 			conn = DriverManager.getConnection(url, user, password);
 
 			System.out.println(conn);// 打印对象，打印出来即连接成功
